@@ -1,7 +1,7 @@
 // Load Ringba function - exactly as provided but as JavaScript function
 const loadRingba = () => {
   var script = document.createElement("script");
-  script.src = "//b-js.ringba.com/CA96589cff1d5d4fa48f459da7dbd3a728";
+  script.src = "//b-js.ringba.com/CAd4c016a37829477688c3482fb6fd01de";
   let timeoutId = setTimeout(addRingbaTags, 1000);
   script.onload = function () {
     clearTimeout(timeoutId);
@@ -264,77 +264,3 @@ if (!userId) {
   userId = Math.random().toString(36).substring(2) + Date.now().toString(36);
   localStorage.setItem("user_id", userId);
 }
-
-// let endpoint = "https://yourfinestsenior.com/dashboard/handler.php";
-
-// Track CTA button clicks
-// function trackCtaClick() {
-//   $.get(
-//     endpoint,
-//     { type: "cta_click", user_id: userId },
-//     function (response) {}
-//   );
-// }
-
-// Track age button clicks
-// function trackAgeClick(ageGroup) {
-//   $.get(
-//     endpoint,
-//     { type: "age_click", user_id: userId, age_group: ageGroup },
-//     function (response) {}
-//   );
-// }
-
-// function ageTrack(age) {
-//   trackAgeClick(age);
-//   $.get(endpoint, { type: "age_track", age: age }, function (response) {});
-// }
-
-function formatPhoneNumber(phoneNumber) {
-  // Ensure the phone number is a string
-  phoneNumber = phoneNumber.toString();
-  // Format the phone number
-  const formattedPhoneNumber = phoneNumber.replace(
-    /(\d{1})(\d{3})(\d{3})(\d{4})/,
-    "+$1 ($2) $3-$4"
-  );
-  return formattedPhoneNumber;
-}
-
-function syncPhoneNumber() {
-  const phoneNumberElement = document.getElementById("phone-number");
-  if (phoneNumberElement) {
-    // Get the current phone number from the href attribute
-    const currentHref = phoneNumberElement.getAttribute("href");
-    const rawPhoneNumber = currentHref.replace(/\D/g, ""); // Extract numeric part from href
-
-    if (rawPhoneNumber.length === 11) {
-      // Format the phone number
-      const formattedPhoneNumber = formatPhoneNumber(rawPhoneNumber);
-      // Update the text content if it's different
-      if (phoneNumberElement.textContent.trim() !== formattedPhoneNumber) {
-        phoneNumberElement.textContent = formattedPhoneNumber;
-      }
-      // Ensure href is correct
-      phoneNumberElement.href = `tel:${rawPhoneNumber}`;
-    }
-  }
-}
-
-// Initial formatting on page load
-document.addEventListener("DOMContentLoaded", (event) => {
-  syncPhoneNumber();
-
-  // Set privacy and terms links based on current domain
-  const currentDom = window.location.origin;
-  const privacyLink = document.getElementById("privacyLink");
-  const termsLink = document.getElementById("termsLink");
-
-  if (privacyLink) {
-    privacyLink.href = currentDom + "/privacy";
-  }
-
-  if (termsLink) {
-    termsLink.href = currentDom + "/terms";
-  }
-});

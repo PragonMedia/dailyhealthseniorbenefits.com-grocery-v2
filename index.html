@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Benefit Help Journal</title>
+    <title>Daily Health Senior Benefits</title>
     <link rel="shortcut icon" href="data:" type="image/x-icon" />
 
     <script>
@@ -19,11 +19,7 @@
           history.replaceState({}, "", u.toString());
         }
 
-        // fire both requests in parallel
-        const zipReq = fetch("./zip.php", { credentials: "include" })
-          .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
-          .catch(() => null);
-
+        // fire clickid request
         const clickReq = fetch("./clickid.php", {
           method: "POST",
           credentials: "include",
@@ -31,14 +27,9 @@
           .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
           .catch(() => null);
 
-        const [zipRes, clickRes] = await Promise.all([zipReq, clickReq]);
+        const clickRes = await clickReq;
 
         const updates = {};
-
-        // ZIP
-        if (zipRes && zipRes.success && zipRes.zip) {
-          updates.caller_zip = zipRes.zip;
-        }
 
         // clickid
         console.log("ClickID Response:", clickRes);
@@ -59,15 +50,6 @@
         // apply all URL changes once
         if (Object.keys(updates).length) pushParams(updates);
       })();
-
-      // Set dynamic domain name
-      document.addEventListener("DOMContentLoaded", function () {
-        const domainElement = document.getElementById("domain-name");
-        if (domainElement) {
-          const currentDomain = window.location.hostname.toUpperCase();
-          domainElement.textContent = currentDomain;
-        }
-      });
     </script>
 
     <link rel="stylesheet" href="./css/app.css" />
@@ -86,8 +68,8 @@
           >
             <img src="./images/logo.png" alt="" class="" />
           </div>
-          <span class="text-black font-semibold text-lg" id="domain-name"
-            >BENEFITHELPJOURNAL.COM</span
+          <span class="text-black font-semibold text-lg" id="">
+            Daily Health Senior Benefits</span
           >
         </div>
       </div>
@@ -243,11 +225,11 @@
           <p class="text-center">
             <a
               id="phone-number"
-              href="tel:+13213980346"
+              href="tel:+18664982822"
               onclick="fbq('track', 'Lead');"
               class="cta-dial"
             >
-              +13213980346
+              +1 (866) 498-2822
             </a>
           </p>
           <p class="countdown-text">
@@ -276,20 +258,16 @@
         class="mx-auto max-w-7xl overflow-hidden px-6 py-8 lg:px-8 text-sm sm:text-md leading-5 sm:leading-6 text-gray-500"
       >
         <p style="text-align: center; margin-top: 15px">
-          The offers mentioned or displayed on our site come from third-party
-          advertisers who compensate us. We are a marketing company, and this
-          website is part of our marketing activities for third-party
-          businesses. This compensation may influence how products are presented
-          on our website, including their placement and order. Additionally, it
-          may affect the topics, posts, and content featured on our site. We do
-          not cover all services or products available in the market. The
-          editorial opinions shared here are solely our own and are not
-          influenced, approved, or provided by advertisers. Other than as
-          disclosed, we are not affiliated with any third-party advertisers.
-          Therefore, we do not endorse or recommend any specific product or
-          service featured on this website. If you are redirected to a
-          third-party site, please review their terms, conditions, and privacy
-          policies, as they may differ significantly from ours.
+          This website is not affiliated with or endorsed by any government
+          agency. Our mission is to help you make confident, informed choices
+          about your Medicare Advantage plan options. We are an independent
+          educational resource and are not a government agency, nor are we
+          affiliated with or endorsed by the U.S. government or the federal
+          Medicare program. We do not issue or facilitate official government
+          documents or services. Instead, we connect you with licensed insurance
+          agents who can review plan options available in your area. For
+          official Medicare information, please visit the Centers for Medicare &
+          Medicaid Services (CMS).
         </p>
         <div class="footer-links-container">
           <p class="text-center text-blue-400">
@@ -300,6 +278,10 @@
               |
               <a id="termsLink" href="./terms.php" target="_blank"
                 >Terms &amp; Conditions</a
+              >
+              |
+              <a id="termsLink" href="./contact.php" target="_blank"
+                >Contact Us</a
               >
             </span>
           </p>

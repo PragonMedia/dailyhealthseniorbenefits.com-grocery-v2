@@ -782,9 +782,9 @@ video {
 
 /* Multi-step form styles */
 :root {
-  --c-primary: #1e3aa3;
+  --c-primary: #3275f1;
   --c-primary-ink: #102a6f;
-  --c-accent: #e01a18;
+  --c-accent: #3275f1;
   --c-ok: #2c7a3b;
   --c-bar: #e9ecef;
 }
@@ -886,7 +886,7 @@ body {
 }
 
 .btn-primary-alt {
-  background: #ff3131;
+  background: #3275f1;
   border: 0;
   color: white;
   font-weight: bold;
@@ -897,12 +897,12 @@ body {
 }
 
 .btn-primary-alt:hover {
-  background: #e02a2a;
+  background: #2563eb;
   color: white;
 }
 
 .cta-dial {
-  background: var(--c-accent);
+  background: #3275f1;
   color: #fff;
   display: inline-flex;
   align-items: center;
@@ -912,7 +912,7 @@ body {
   /* padding: 12px 24px !important; */
   width: 80% !important;
   border-radius: 12px;
-  border-color: #0072c0 !important;
+  border-color: #3275f1 !important;
   text-decoration: none;
   transition: background-color 0.2s ease;
 }
@@ -925,7 +925,7 @@ body {
 }
 
 .cta-dial:hover {
-  background: #c71816;
+  background: #2563eb;
   color: white;
   text-decoration: none;
 }

@@ -42,120 +42,33 @@
 </head>
 
 <body>
-    <h1>Terms of Service</h1>
+    <h1>Terms & Conditions</h1>
     <div class="date">
-        <p>Effective Date: March 3, 2025</p>
-        <p>Last Updated: March 3, 2025</p>
+        <p>Last updated: January 1, 2025</p>
     </div>
 
-    <p>
-        Welcome to <span id="website-name">[Your Website Name]</span> ("Company,"
-        "we," "our," or "us"). These Terms of Service ("Terms") govern your access
-        to and use of our website
-        <span id="domain-name">[yourdomain.com]</span> and related services
-        (collectively, the "Services"). By accessing or using our Services, you
-        agree to be bound by these Terms. If you do not agree, you may not use our
-        Services.
-    </p>
+    <p>These Terms and Conditions ("Terms") govern your use of our website and services. Please read these terms carefully before accessing or using our platform.</p>
 
-    <h2>1. Eligibility</h2>
-    <p>
-        You must be at least 13 years old (or the minimum age required in your
-        jurisdiction) to use our Services. By using our Services, you represent
-        and warrant that you meet this requirement.
-    </p>
+    <p>By accessing or using our website, you agree to be bound by these Terms. These Terms apply to all visitors, users, and anyone who accesses or uses our services.</p>
 
-    <h2>2. Accounts</h2>
-    <ul>
-        <li>To access certain features, you may need to create an account.</li>
-        <li>
-            You are responsible for maintaining the confidentiality of your account
-            credentials.
-        </li>
-        <li>
-            You agree to notify us immediately of any unauthorized use of your
-            account.
-        </li>
-    </ul>
+    <p>If you do not agree with any part of these Terms, you may not access or use our services. These Terms constitute a legally binding agreement between you and our company.</p>
 
-    <h2>3. Acceptable Use</h2>
-    <p>You agree not to:</p>
-    <ul>
-        <li>Use the Services for any unlawful purpose.</li>
-        <li>
-            Attempt to interfere with or compromise the security of our Services.
-        </li>
-        <li>Upload or transmit any harmful code, viruses, or spam.</li>
-        <li>Impersonate another person or misrepresent your affiliation.</li>
-    </ul>
+    <h2>Third-Party Websites and Services</h2>
+    <p>Our website may contain links to external websites or services that are not owned or controlled by us.</p>
 
-    <h2>4. Intellectual Property</h2>
-    <ul>
-        <li>
-            All content, trademarks, logos, and materials on the Services are owned
-            by or licensed to us.
-        </li>
-        <li>
-            You may not copy, reproduce, distribute, or create derivative works
-            without our prior written consent.
-        </li>
-    </ul>
+    <p>We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party websites or services. You acknowledge and agree that we shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with your use of or reliance on any such content, goods, or services available on or through any such websites or services.</p>
 
-    <h2>5. User Content</h2>
-    <ul>
-        <li>You retain ownership of any content you submit.</li>
-        <li>
-            By posting or uploading content, you grant us a worldwide,
-            non-exclusive, royalty-free license to use, reproduce, and display such
-            content for the purposes of operating our Services.
-        </li>
-    </ul>
+    <p>We strongly recommend that you review the terms and conditions and privacy policies of any third-party websites or services that you visit through links on our site.</p>
 
-    <h2>6. Third-Party Links</h2>
-    <p>
-        Our Services may contain links to third-party websites or services. We are
-        not responsible for their content, policies, or practices.
-    </p>
+    <h2>Applicable Law</h2>
+    <p>These Terms shall be interpreted and governed in accordance with the laws of Ontario, Canada, without regard to its conflict of law provisions.</p>
 
-    <h2>7. Disclaimer of Warranties</h2>
-    <p>
-        Our Services are provided "as is" and "as available." We disclaim all
-        warranties, express or implied, including merchantability, fitness for a
-        particular purpose, and non-infringement.
-    </p>
+    <p>Our failure to enforce any right or provision of these Terms will not be considered a waiver of those rights. If any provision of these Terms is held to be invalid or unenforceable by a court, the remaining provisions of these Terms will remain in effect. These Terms constitute the entire agreement between us regarding our services and supersede and replace any prior agreements we might have regarding the services.</p>
 
-    <h2>8. Limitation of Liability</h2>
-    <p>
-        To the maximum extent permitted by law, we shall not be liable for any
-        indirect, incidental, special, or consequential damages arising from your
-        use of our Services.
-    </p>
+    <h2>Modifications to Terms</h2>
+    <p>We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material, we will try to provide at least 30 days notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.</p>
 
-    <h2>9. Termination</h2>
-    <p>
-        We may suspend or terminate your access to the Services at any time for
-        any reason, including violation of these Terms.
-    </p>
-
-    <h2>10. Governing Law</h2>
-    <p>
-        These Terms shall be governed by and construed in accordance with the laws
-        of Wyoming, United States, without regard to its conflict of laws
-        principles.
-    </p>
-
-    <h2>11. Changes to Terms</h2>
-    <p>
-        We may update these Terms from time to time. Any changes will be posted on
-        this page with an updated "Last Updated" date. Continued use of our
-        Services after such changes constitutes acceptance.
-    </p>
-
-    <h2>12. Contact Us</h2>
-    <div class="contact">
-        <p>If you have questions about these Terms, please contact us at:</p>
-        <p>support@<span id="email-domain">domain</span></p>
-    </div>
+    <p>By continuing to access or use our services after those revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, please discontinue using our services.</p>
 
     <script>
         // Dynamic domain insertion script

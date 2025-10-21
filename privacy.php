@@ -44,139 +44,70 @@
 <body>
     <h1>Privacy Policy</h1>
     <div class="date">
-        <p>Effective Date: March 3, 2025</p>
-        <p>Last Updated: March 3, 2025</p>
+        <p><strong>NOTICE: PRIVACY POLICY UPDATED, EFFECTIVE January 1, 2025</strong></p>
     </div>
 
-    <p>
-        <span id="website-name">[Your Website Name]</span> ("Company," "we,"
-        "our," or "us") values your privacy. This Privacy Policy explains how we
-        collect, use, and protect your personal information when you use our
-        website <span id="domain-name">[yourdomain.com]</span> and related
-        services (collectively, the "Services").
-    </p>
-    <p>
-        By using our Services, you consent to the practices described in this
-        Privacy Policy.
-    </p>
+    <p>We value your privacy and are committed to protecting your personal information. This privacy policy explains how we collect, use, and safeguard your data when you visit our website.</p>
 
-    <h2>1. Information We Collect</h2>
-    <p>We may collect the following types of information:</p>
+    <h2>Scope of This Privacy Policy</h2>
+    <p>This privacy policy describes how we handle personal information collected through this website. Personal information includes any data that can identify you personally, such as your name, address, email address, or phone number, and is not publicly available information.</p>
+
+    <p>This policy only applies to information collected through this website and does not cover practices of other companies we don't control, people we don't employ, or information collected through other means.</p>
+
+    <h2>How We Collect and Use Information</h2>
+    <h3>General Collection Practices</h3>
+    <p>We gather personal information when you interact with our website, use our services, or visit pages on our site or partner websites. We may combine information we collect directly with data obtained from business partners or other companies.</p>
+
+    <p>When you provide information to us, we may request details such as your name, email address, and contact information. Once you share this information with us, you are no longer anonymous to our system.</p>
+
+    <p>We collect data about your interactions with our services and business partners, including details about your use of our products and services.</p>
+
+    <p>Our systems automatically collect and record information from your browser, including your IP address, cookie data, and the pages you visit on our site.</p>
+
+    <p>We use collected information to: personalize your experience, fulfill your service requests, improve our offerings, communicate with you, conduct research, and provide reporting to our internal and external clients.</p>
+
+    <h2>Information Sharing and Disclosure</h2>
+    <p>We do not sell, rent, or share your personal information with unaffiliated third parties, except when you give us permission or under the following specific circumstances:</p>
+
     <ul>
-        <li>
-            <strong>Personal Information:</strong> Information you provide directly,
-            such as your name, email address, phone number, billing details, or
-            account information.
-        </li>
-        <li>
-            <strong>Usage Data:</strong> Information automatically collected, such
-            as your IP address, browser type, device information, pages visited, and
-            time spent on the site.
-        </li>
-        <li>
-            <strong>Cookies & Tracking Technologies:</strong> We may use cookies,
-            web beacons, and similar tools to enhance your browsing experience.
-        </li>
+        <li>We share information with trusted partners who work with us under confidentiality agreements. These partners may use your information to help us communicate about offers and services, but they cannot independently share this information.</li>
+        <li>We respond to legal requests such as subpoenas, court orders, or legal processes, or when establishing or defending our legal rights.</li>
+        <li>We share information when necessary to investigate, prevent, or take action regarding illegal activities, suspected fraud, threats to safety, violations of our terms, or as required by law.</li>
+        <li>We transfer information if our company is acquired or merged with another company. In such cases, we will notify you before your information is transferred to a new privacy policy.</li>
+        <li>We share your information with vendors, suppliers, and advertisers who want to do business with you. While we verify these parties promote relevant products and services, we cannot endorse them unless we explicitly state otherwise.</li>
     </ul>
 
-    <h2>2. How We Use Your Information</h2>
-    <p>We may use your information to:</p>
+    <p>If you prefer not to have your information shared in this manner, please see the opt-out information below. Note that we will retain your information as necessary to maintain our relationship with you, and opting out after we've already shared your information with third parties will not affect their use of that information.</p>
+
+    <p>By using our services, you grant us and our partners the right to contact you regarding various products and services, including but not limited to motor vehicles. This includes packaging your information as sales leads and sharing it with interested parties. You authorize us to take all reasonable actions necessary to accomplish these purposes.</p>
+
+    <h2>Communication and Marketing Laws</h2>
+    <p>Your use of this website establishes a business relationship with us under CAN-SPAM, the Telephone Consumer Protection Act, and other applicable laws regarding commercial communications. By accessing this website, you agree that we, our agents, or parties to whom we provide your information may contact you via phone calls, including automated dialing systems, pre-recorded messages, or SMS text messages, even if your number is on a do-not-call list, regarding the promotion of goods, services, real property, or other valuable items.</p>
+
+    <h2>Cookie Usage</h2>
+    <p>We may place and access cookies on your computer to enhance your experience.</p>
+    <p>Important information about our cookie usage:</p>
     <ul>
-        <li>Provide, operate, and maintain our Services.</li>
-        <li>Improve, personalize, and expand our Services.</li>
-        <li>
-            Communicate with you, including sending updates, promotions, or
-            service-related notices.
-        </li>
-        <li>Process payments and transactions (if applicable).</li>
-        <li>
-            Ensure compliance with legal obligations and protect against fraud.
-        </li>
+        <li>Some features of our website require cookies to function properly.</li>
+        <li>We use cookies to identify you and maintain your session status.</li>
+        <li>Most of our cookies are "session cookies" that are automatically deleted when you close your browser.</li>
+        <li>You can disable cookies in your browser settings, but this may affect your ability to use certain features of our site.</li>
     </ul>
 
-    <h2>3. How We Share Information</h2>
-    <p>
-        We do not sell your personal information. We may share your information
-        with:
-    </p>
-    <ul>
-        <li>
-            <strong>Service Providers</strong> who help us operate our Services
-            (e.g., payment processors, hosting providers).
-        </li>
-        <li>
-            <strong>Legal Requirements</strong> if required by law, court order, or
-            government request.
-        </li>
-        <li>
-            <strong>Business Transfers</strong> if we undergo a merger, acquisition,
-            or asset sale.
-        </li>
-    </ul>
+    <h2>Data Security and Protection</h2>
+    <p>We restrict access to your personal information to employees who need it to provide services to you or perform their job functions.</p>
 
-    <h2>4. Data Retention</h2>
-    <p>
-        We retain your personal information only for as long as necessary to
-        fulfill the purposes outlined in this Policy, unless a longer retention
-        period is required by law.
-    </p>
+    <p>We implement physical, electronic, and procedural safeguards to protect your personal information.</p>
 
-    <h2>5. Your Rights</h2>
-    <p>
-        Depending on your location, you may have rights under applicable privacy
-        laws, such as:
-    </p>
-    <ul>
-        <li>Accessing, correcting, or deleting your personal information.</li>
-        <li>Opting out of marketing communications.</li>
-        <li>Requesting restrictions on processing or data portability.</li>
-    </ul>
-    <p>
-        To exercise your rights, contact us at support@<span id="email-domain-1">domain</span>.
-    </p>
+    <p>Your data is stored on servers located in the United States. We treat your information as a valuable asset and use various security measures (encryption, passwords, physical security, etc.) to protect it from unauthorized access. However, please understand that third parties may unlawfully intercept communications, and other users may misuse information they collect from our site. While we work diligently to protect your privacy, we cannot guarantee that your personal information will always remain completely private.</p>
 
-    <h2>6. Cookies & Tracking</h2>
-    <p>
-        We use cookies to improve your browsing experience, analyze traffic, and
-        personalize content. You can disable cookies through your browser
-        settings, but some features of our Services may not function properly.
-    </p>
+    <h2>Your Choices and Opt-Out Rights</h2>
+    <p>If you no longer wish to receive newsletters, promotional materials, or have your information shared with third parties, you may opt out by contacting us using the information provided below. We will process such requests as quickly as commercially possible, though this may take up to 30 days or longer due to batch processing requirements. If you opt out and later provide your information to us again under circumstances that allow us to use it, we will consider your opt-out request as withdrawn.</p>
 
-    <h2>7. Security</h2>
-    <p>
-        We take reasonable technical and organizational measures to protect your
-        information. However, no method of transmission or storage is completely
-        secure, and we cannot guarantee absolute security.
-    </p>
+    <p>Please note that once we have shared your information with third parties, it may be impractical to stop them from continuing to use that information, and opting out may not prevent all third parties from using your data.</p>
 
-    <h2>8. Children's Privacy</h2>
-    <p>
-        Our Services are not directed to individuals under the age of 13. We do
-        not knowingly collect personal information from children.
-    </p>
-
-    <h2>9. International Users</h2>
-    <p>
-        If you access our Services from outside
-        <span id="country">[Your Country]</span>, your information may be
-        transferred to and processed in countries with different data protection
-        laws.
-    </p>
-
-    <h2>10. Changes to This Policy</h2>
-    <p>
-        We may update this Privacy Policy from time to time. Changes will be
-        posted on this page with an updated "Last Updated" date. Continued use of
-        our Services indicates acceptance of the updated policy.
-    </p>
-
-    <h2>11. Contact Us</h2>
-    <div class="contact">
-        <p>
-            If you have questions about this Privacy Policy, please contact us at:
-        </p>
-        <p>support@<span id="email-domain-2">domain</span></p>
-    </div>
+    <h2>Policy Updates</h2>
+    <p>We may update this privacy policy from time to time. We will notify you of significant changes to how we handle personal information by sending a notice to your registered email address or by posting a notice on our website.</p>
 
     <script>
         // Dynamic domain insertion script
