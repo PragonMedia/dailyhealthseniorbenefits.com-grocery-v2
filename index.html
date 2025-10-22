@@ -52,6 +52,24 @@
       })();
     </script>
 
+    <script>
+      (function () {
+        function setCompanyName() {
+          const companyNameElement = document.getElementById("company-name");
+          if (companyNameElement) {
+            const hostname = window.location.hostname;
+            let domainName = hostname.replace(/^www\./, "").toUpperCase();
+            companyNameElement.textContent = domainName;
+          }
+        }
+        if (document.readyState === "loading") {
+          document.addEventListener("DOMContentLoaded", setCompanyName);
+        } else {
+          setCompanyName();
+        }
+      })();
+    </script>
+
     <link rel="stylesheet" href="./css/app.css" />
   </head>
 
@@ -68,8 +86,8 @@
           >
             <img src="./images/logo.png" alt="" class="" />
           </div>
-          <span class="text-black font-semibold text-lg" id="">
-            Daily Health Senior Benefits</span
+          <span class="text-black font-semibold text-lg" id="company-name">
+            Loading...</span
           >
         </div>
       </div>
